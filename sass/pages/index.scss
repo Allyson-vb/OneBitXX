@@ -1,0 +1,65 @@
+.parte1
+{
+    background-image: url(../../imgs/home/01.jpg);
+}
+.nav
+{
+    padding: 0px 30px;
+}
+.logoObc
+{
+    width: 250px;
+}
+.part1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+}
+.parte2
+{
+    background-image: url(../../imgs/home/03.jpg);
+}
+.parte3
+{
+    background-image: url(../../imgs/home/02.gif);
+
+}
+.parte4
+{
+    background-image: url(../../imgs/home/04.jpg);
+}
+
+
+
+@media(max-width:671px)
+{
+    .content00
+    {
+        width: auto;
+        margin-left: auto;
+    }
+}
+@media (max-width:321px)
+{
+    .logoObc
+    {
+        width: 125px;
+    }
+    .content00
+    {
+        width: auto;
+        
+    }
+    .content00
+.footer
+{
+    font-size: 10px;
+    
+}
+.Fparagraph
+    {
+        font-size: 10px;
+    }
+}

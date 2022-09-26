@@ -1,0 +1,160 @@
+.parte11
+{
+    background-image: url(../../imgs/humanflight/01.jpg);
+    .containerMainHuman
+    {
+        padding-top: 40px;
+        text-align: center;
+        width: 700px;
+        .titleHuman
+        {
+            font-size: 6em;
+            font-weight: bold;
+        }
+        .subtitleHuman
+        {
+            font-weight: normal;
+        }   
+    }
+    .arrowContainer
+    {
+        width: 100%;
+        text-align: center;
+        padding-top: 100px;
+        .arrowDown
+    {
+        width: 200px;
+        
+    }
+    }
+    
+}
+.parte12
+{
+    background-image: url(../../imgs/humanflight/02.jpg);
+    
+    .subtitle2Human
+    {
+        text-align: center;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .titleHuman
+    {
+        font-size: 4em;
+        font-weight: bold;
+    }
+    .info12
+    {
+        margin-left: 55%;
+        padding-top: 10%;
+    }
+}
+.parte13
+{
+    background-image: url(../../imgs/humanflight/03.jpg);
+    .info13
+    {
+        padding-left: 50px;
+        padding-top: 200px;
+    }
+    .titleHuman
+    {
+        font-size: 4em;
+        font-weight: bold;
+
+    }
+}
+.parte14
+{
+    background-image: url(../../imgs/humanflight/04.jpg);
+    .titleHuman
+    {
+        font-size: 4em;
+        font-weight: bold;
+    }
+    .info13
+    {
+        margin-left: 46%;
+        padding-top: 10%;
+    }
+}
+.parte15
+{
+    background-image: url(../../imgs/humanflight/05.jpg);
+    .info15
+    {
+        padding-left: 50px;
+        padding-top: 200px;
+    }
+    .titleHuman
+    {
+        font-size: 4em;
+        font-weight: bold;
+    }
+}
+
+@media(max-width:903px)
+{
+    .logoObc
+    {
+        width: 200px;
+    }
+    .containerMainHuman
+    {
+        width: auto;
+    }
+    
+    .parte11
+    {
+        background-position: right;
+    }
+
+}
+@media(max-width:773px)
+{
+    .parte11 .containerMainHuman .titleHuman {
+        font-size: 3em;
+    }
+    .parte11 .containerMainHuman 
+    {
+        width: auto;
+    }
+    .parte12 .info12 {
+        margin-left: 15%;
+        padding-top: 10%;
+    }
+}
+
+@media(max-width:580px)
+{   
+    .parte11 .containerMainHuman .titleHuman{
+        font-size: 2em;
+    }
+}
+
+@media (max-width:389px)
+{
+    .parte11 .containerMainHuman .titleHuman
+    {
+        font-size: 3em;
+        width: auto;
+    }
+}
+@media(max-width:430px)
+{   
+    .parte11 .containerMainHuman
+    {
+        width: auto;
+        font-size: 11px;
+    }
+    .parte12 .titleHuman
+    {
+        width: auto;
+        font-size: 2em;
+    }
+    .parte12 .subtitle2Human
+    {
+        font-size: 12px;
+    } 
+}

@@ -1,0 +1,98 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    color: white;
+}
+.parte00
+{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.content00
+{
+    width: 550px;
+    margin-left: 100px;
+    padding-top: 200px;
+}
+
+.textInfo
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 150px;
+}
+.header
+{
+    padding: 20px 0;
+}
+.arrowDown {
+    width: 150px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.logoObc
+{
+    width: 250px;
+}
+
+//botoes
+.btns
+{
+    background-color: transparent;
+    border: 2px solid #F8F9FA;
+    border-radius: 5px;
+    padding: 15px 30px;
+    color: #F8F9FA;
+    transition: 0.5s;
+    &:hover
+    {
+        background-color: #F8F9FA;
+        color: black;    
+    }
+}
+//rodapé
+.footer
+{
+    background-color: black;
+    .containerfooter
+    {
+        display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    gap: 10px;
+    }
+    .Fparagraph
+    {
+        color: #555252;
+        margin: 0;
+        padding-right: 10px;
+    }
+
+    .link
+    {
+        text-decoration: none;
+        color: white;
+        padding-right: 10px;
+        &:hover
+        {
+            color: #B9B9B9;
+        }
+    }
+}
+//media query
+
+
+
